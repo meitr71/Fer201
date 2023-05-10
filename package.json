@@ -1,0 +1,22 @@
+{
+  "name": "form-0510",
+  "version": "1.0.0",
+  "description": "This is an example about form-0510",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meitr71/Fer201.git"
+  },
+  "author": "Mai Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meitr71/Fer201/issues"
+  },
+  "homepage": "https://github.com/meitr71/Fer201#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
