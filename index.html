@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form Example</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="container-fluid mt-3 mx-auto">
+        <h1>Survey Form For Student</h1>
+
+         <form>
+            <!-- Vertical -->
+            <div class="form-group col-md-4 "  >
+               <label for="name">Name</label>
+               <input type="name" class="form-control" placeholder="Ex: Trần Thị Trúc Mai">
+               <label for="name">Email</label>
+               <input type="email" id = "myEmail" class="form-control" placeholder="Ex: maitttde160317@fpt.edu.vn">
+               <label for="age">Age</label>
+               <input type="age" class="form-control" placeholder="Enter your age">
+            
+               <div class="form-group">
+                <label for="option">Which option best describes you?</label>
+                <select class="form-control" id="option">
+                  <option>Teacher</option>
+                  <option>Parents</option>
+                  <option>Student</option>
+                </select>
+              </div>
+
+              
+              <label for="custom-checkbox">Languages and Frameworks known (Check all that apply@)</label>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">C</label>
+            </div>
+
+            <div class="custom-control custom-checkbox"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                <label class="custom-control-label" for="customCheck2">C++</label>
+            </div>
+
+            <div class="custom-control custom-checkbox"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                <label class="custom-control-label" for="customCheck3">C#</label>
+            </div>
+
+            <div class="custom-control custom-checkbox"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                <label class="custom-control-label" for="customCheck4"> Java </label>
+            </div>
+
+            <div class="custom-control custom-checkbox"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck5">
+                <label class="custom-control-label" for="customCheck5"> Python </label><br>
+            </div>
+
+            <div class="custom-control custom-checkbox"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck6">
+                <label class="custom-control-label" for="customCheck6"> Java Script </label><br>
+            </div>
+
+            <div class="custom-control custom-checkbox"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck7">
+                <label class="custom-control-label" for="customCheck7"> React </label><br>
+            </div>
+
+            <div class="custom-control custom-checkbox"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck8">
+                <label class="custom-control-label" for="customCheck8"> Angular </label><br>
+            </div>
+        
+            <div class="custom-control custom-checkbox"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck9">
+                <label class="custom-control-label" for="customCheck9"> Django </label><br>
+            </div>
+
+            <div class="custom-control custom-checkbox mb-3"> 
+                <input type="checkbox" class="custom-control-input" id="customCheck10">
+                <label class="custom-control-label" for="customCheck10"> Spring </label><br>
+            </div>
+
+            <div class="mb-4">
+                <label for="fillbytext">Any comments or suggestions</label>
+                <textarea class="form-control fill" id="fillbytext" required></textarea>
+                <div class="invalid-feedback">
+                  Please enter a message in the textarea.
+                </div>
+            </div>
+
+               <input type="submit" class="btn mb-4 mx-auto" style="width: 100%;">
+
+               
+            </div>
+         </form>
+         
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   </body>
+</html>
